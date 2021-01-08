@@ -1,0 +1,62 @@
+*{ margin: 0px; padding: 0px;}
+button:focus{ outline: none;}
+button{  cursor: pointer;  color: #000; background: none; border:1px solid dashed #009988;}
+button:hover{ background-color: #000000; border-radius: 20px; text-shadow: 5px 5px 5px #02f7d2; color: #02f7d2; transition: all 1s;}
+#div{ width: 80%; margin: auto; height: 100%; background-color: #FF430D; border-radius: 20px; padding: 10px 20px 1px 20px;}
+#div1{ width: 100%; overflow: hidden; height: 40px; }
+#btn{ width: 120px; height: 30px; line-height: 30px; text-align: center; margin: 5px 10px;}
+#div1 button{ width: 120px; height: 30px; line-height: 30px; text-align: center; margin: 4px 10px;}
+#div-2{ position: relative; width: 100%;height: 400px; overflow: auto; border: 4px solid #aaa; box-shadow:20px 25px 15px #ccc;}
+#div2{ position: relative; width: 100%; }
+#userTable{ width: 100%;}
+#userTable tr{ width: 100%; border: 1px solid #00ABE8;}
+#userTable thead tr td{ overflow: hidden; font-weight: bold; height: 30px; line-height: 30px; text-align: center; font-size: 20px; border-right:1px solid #008EDB ; }
+#userTable tbody td{ overflow: hidden; height: 30px; line-height: 30px; text-align: center; font-size: 15px; width: ; border-right:1px solid #008EDB ; }
+#span{ width: 100%; height: 40px; overflow: hidden; display: block; margin: 20px 10px;}
+#span ul li{ float: left;  margin: 0px 5px; list-style-type: none; width: 30px; height: 30px; text-align: center; line-height: 30px;}
+#li{ border: 1px solid #f7551d;}
+#li:hover{ background-color: rgba(2,247,210,0.5); transition: all 1s; color: #f7551d; }
+#mtt{  width: 400px; background-color: rgba(150,210,19,0.5); margin: -200px 0px 0px -200px; height: 380px; border: 1px solid #202969; position: absolute; top: -50%; left: 50%;}
+#mtt h1{ text-align: center; margin: 10px 0px 0px 0px;}
+#form{ overflow: hidden; margin-left: 20px; margin-top: 20px;}
+#form p{ float: left; margin: 5px 10px;}
+#form p label{ font-size: 20px;}
+#form p input{ width: 200px; height: 25px;}
+#form p button{ width: 100px; height: 35px; margin: 15px 25px; background-color: #136FBA; font-size: 18px;}		
+#form1{ overflow: hidden; margin-left: 20px; margin-top: 20px;}
+#form1 p{ float: left; margin: 5px 10px;}
+#form1 p label{ font-size: 20px;}
+#form1 p input{ width: 200px; height: 25px;}
+#form1 p button{ width: 100px; height: 35px; margin: 15px 25px; background-color: #136FBA; font-size: 18px;}
+#shan{ background-color: rgba(0,0,0,0,0); width: 50%; float: left; height: 30px;}
+#xiu{ width: 50%; float: left; height: 30px;}
+#span1{ font-weight: bold; width: 190px; height: 30px; display: inline-block; float: right; margin: 10px 5px;}
+.cha_text{ width: 120px; height: 30px; float: right; display: inline-block; margin: 10px 10px;}
+.cha_text input{ width: 100%; height: 25px; padding: 0px 0px 0px 5px; font-size: 12px; color: #666666;}
+.cha_LeiXing{width: 170px; height: 30px; float: right; display: inline-block; margin: 10px 0px;}
+.cha_LeiXing select{ width: 100px; height: 30px; padding: 0px 0px 0px 5px; float: left; font-size: 12px; color: #666666;}
+.cha_LeiXing button{ width: 50px; float: left; margin: 0px 10px; height: 30px; padding: 0px 0px 0px 5px;}
+#select{ width: 100px; height: 30px;}
+#list{ width: 100%; height: 100%;}
+#list li{ list-style-type: none; width: 100%; height: 100%; background: #fff; overflow-x:hidden; position: absolute; top: 0px; left: 0px;}
+.text{ font-size: 15px; padding: 10px 10px; color: #666; width: 90%; height: 80%; margin: 10px auto 10px auto; display: block;}
+#li{ cursor: pointer;}
+#p1{width: 100%; height:5%; line-height: 40px; text-align: center;}
+#font{ margin-left: 20px; overflow: hidden;}
+#font span{ display: inline-block; color: #204D74; height: 30px;text-align: center;  line-height: 40px; margin-right: 5px;}
+#font button{ width:60px; height: 30px; margin-right: 10px;}
+#table_sec{ position: relative;}
+#span1 em{ width: 120px;border-radius: 10px; cursor: pointer;}
+#csb{ color: red; border: 2px solid #00FFFF; background-image: url(../images/20180313170711_563.gif); background-size:100% 100%; ;}
+.iframe{ width: 100%; padding: 0px; ; height: 95%; margin-top: 10px; overflow: hidden;}
+.cha-text{ float: left;}
+.show{ display: block;}
+/*.show1{ color: red;}*/
+.hide{ display: none;}
+/*.hide1{ color: #000;}*/
+.loadFileInp{
+    width: 500px;
+    background: #000;
+    height: 30px;
+    float: right;
+}

@@ -1,0 +1,90 @@
+	{{extend '../common/layout'}}
+
+	{{block 'main'}}
+		<div id="div">
+			<div id="div1">
+				<button id="btn1">新建一页</button>
+				<span>用户名：{{userInfo}}</span>
+				<form class="loadFileInp" method="post" enctype="multipart/form-data" action="/admin/loadFile">
+					<input type="file" name="cover" id="inpFile" />
+					<input type="submit" class="loadFile">提交</button>
+				</form>
+				<a href="/admin/logout">点击退出</a>
+			</div>
+			<div id="div-2">
+				<ul id="list">
+					<li class="show">
+						<div id="div2">
+							<button id="btn">新建表格</button>
+							<font id="font">
+								<button id="tong">统计</button>
+								男：<span id="span2">--</span>
+								女：<span id="span3">--</span>
+								总共：<span id="span4">--</span>
+							</font>
+							<span id="span1"><select id="select"><option>—— ——</option></select>：<em>一键查找</em></span>
+							<span class="cha_text"><input type="text" placeholder="请输入id号查询" /></span>
+							<span class="cha_LeiXing"><select id="select_LX"><option>—— ——</option></select><button id="LX_qd">确定</button></span>
+						</div>
+						<table id="userTable">
+							<thead>
+								<tr>
+									<td>_id</td>
+									<td>角色</td>
+									<td>名字</td>
+									<td>密码</td>
+									<td>手机号</td>
+								</tr>
+							</thead>
+							<tbody>
+								<% for(let i=0;i<user.length;i++){%>
+									<tr>
+										<td><%=user[i]._id%></td>
+										<td><%=user[i].username%></td>
+										<td><%=user[i].role%></td>
+										<td><%=user[i].userpass%></td>
+										<td><%=user[i].phone%></td>
+									</tr>
+								<%}%>
+							</tbody>
+						</table>
+					</li>
+				</ul>
+			</div>
+			<span id="span"></span>
+		</div>
+		<div id="mtt">
+			<h1>模态框</h1>
+			<form id="form">			
+				<p>
+					<label>姓&emsp;&emsp;名：</label>
+					<input type="text" />
+				</p>				
+				<p>
+					<label>性&emsp;&emsp;别：</label>
+					<input type="text" />
+				</p>
+				<p>
+					<label>专业类别：</label>
+					<input type="text" />
+				</p>
+				<p>
+					<label>专业名称：</label>
+					<input type="text" />
+				</p>
+				<p>
+					<label>电&emsp;&emsp;话：</label>
+					<input type="text" />
+				</p>
+				<p>
+					<button type="button" class="quequ">确定</button>
+					<button type="button" class="quequ">取消</button>
+				</p>
+			</form>
+		</div>	
+	{{/block}}
+	{{block 'script'}}
+		<script src="/js/load.js"></script>
+		<script src="/js/jquery-1.11.3.js"></script>
+		<script src="/js/creat.js"></script>
+	{{/block}}

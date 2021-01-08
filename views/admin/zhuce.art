@@ -1,0 +1,32 @@
+{{extend '../common/layout.art'}}
+{{block 'link'}}
+	<link rel="stylesheet" href="/css/zhuce.css"  />
+{{/block}}
+	{{block 'main'}}
+		<div class="zc">
+		{{msg}}
+			<h1>用户注册</h1>
+			<form id="form" method="post" action="/admin/regin">
+				<p>
+					<label>姓&emsp;&emsp;名：</label>
+					<input type="text" name="username" placeholder="请输入姓名" />
+				</p>				
+				<p>
+					<label>手&ensp;机&ensp;号：</label>
+					<input type="text" name="phone" placeholder="请输入手机号" />
+				</p>				
+				<p>
+					<label>密&emsp;&emsp;码：</label>
+					<input type="password" name="userpass" placeholder="请输入密码" /><span class="span_1"></span>
+				</p>				
+				<p>
+					<label>重输密码：</label>
+					<input type="password" placeholder="请重新输入密码" /><span class="span_1"></span>
+				</p>				
+				<p>
+					<button type="submit" id="btn">提交</button>
+					<button type="reset">重置</button>
+				</p> 
+			</form>
+		</div>
+		{{/block}}

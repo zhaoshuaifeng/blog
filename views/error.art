@@ -1,0 +1,4 @@
+{{extend './common/layout'}}
+{{block 'main'}}
+    <p>{{msg}}</p>
+{{/block}}

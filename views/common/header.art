@@ -1,0 +1,31 @@
+    <header>
+        <div class="header">
+            <div class="lun">
+                <ul class="list-1">
+                    <li class="show a1" style=""></li>
+                    <li class="show a2" style=""></li>
+                    <li class="show a3" style=""></li>
+                    <li class="show a4" style=""></li>
+                </ul>
+            </div>
+            <div class="header_1">
+                <a href=""><span>SOFT</span>DECORS</a>
+            </div>
+            <div class="header_2 one1">
+                <h1>Lorem</h1>
+                <h2>ipsum</h2>
+            </div>				
+            <div class="header_2 one2">
+                <h1>volutp</h1>
+                <h2>design</h2>
+            </div>				
+            <div class="header_2 one3">
+                <h1>house</h1>
+                <h2>decor</h2>
+            </div>				
+            <div class="header_2 one4">
+                <h1>fluxy</h1>
+                <h2>dende</h2>
+            </div>
+        </div>
+    </header>

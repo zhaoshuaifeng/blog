@@ -1,0 +1,225 @@
+	{{extend '../common/layout.art'}}
+	{{block 'link'}}
+		<link href="/css/xiangm.css" rel="stylesheet" type="text/css" />
+	{{/block}}
+	{{block 'main'}}
+	<div class="nav">三</div>
+		<div id="zzc">
+			<div class="nav_1">
+				<div><span></span><a >Home</a></div>
+				<div><span></span><a >About</a></div>
+				<div><span></span><a >Designs</a></div>
+				<div><span></span><a >Gallery</a></div>
+				<div><span></span><a >Contact</a></div>
+			</div>
+		</div>
+		{{msg==""?"---":msg}}
+		<a href="/admin/logout">点击退出</a>
+		{{include '../common/header.art'}}
+		<section>
+			<div class="section">
+				<div class="sec-1 miao">
+					<h1>About us</h1>
+					<div class="sec-2">
+						<div class="sec-21">
+							<h2>Welcome</h2>
+							<i><h3>Ut eget neque ac ipsum venenatis lobortis at et diam.</h3></i>
+							<p>Curabitur porta nisl non dui lobortis, vel aliquet ex pretium. Vivamus ullamcorper odio at commodo egestas.
+					  Mauris lacinia nibh a enim dictum, sit amet scelerisque enim molestie. Morbi ac laoreet ante, quis fermentum urna. 
+					  Etiam sit amet massa non nunc tincidunt mattis. Nunc non ex ultricies, tristique leo sed, vehicula mauris. Sed mollis tristique ligula, nec euismod dolor pharetra non.</p>
+							<p>Etiam ante diam, congue sit amet elit placerat, faucibus faucibus ipsum. Vivamus vel laoreet nulla. Aenean id bibendum diam. Donec rutrum mi diam, sed tempus metus luctus a.
+					 Nullam vitae quam sed felis mattis facilisis. Nunc magna. Donec eleifend odio non neque semper eleifend. Mauris pharetra venenatis augue.</p>
+							<button class="btn">Read More</button>
+						</div>						
+						<div class="sec-21">
+							<h3>Suspendisse massa pellentesque</h3>
+							<img src="/xiang/images/ab1.jpg"  />
+							<h4>Vestibulum efficitur lacus nulla porttitor lorem luctus.</h4>
+							<p>Duis vitae auctor purus. Aenean feugiat nunc mauris, id porttitor turpis 
+					 rhoncus sit amet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean finibus felis ac 
+					 risus lacinia, non venenatis erat vestibulum.</p>
+						</div>
+					</div>
+				</div>
+				<div class="sec_2 miao">
+					<h1>Our designs</h1>
+					<div class="sec_21">
+						<div id="tu-1"><img src="/xiang/images/d1.jpg" /><div class="zhe"><h3>smart decors</h3></div></div>
+						<div id="tu-2"><img src="/xiang/images/d2.jpg" /><div class="zhe"><h3>smart decors</h3></div></div>
+						<div id="datu">
+							<div><img src="/xiang/images/d3.jpg" /><div class="zhe"><h3>smart decors</h3></div></div>
+							<div><img src="/xiang/images/d4.jpg" /><div class="zhe"><h3>smart decors</h3></div></div>
+							<div><img src="/xiang/images/d5.jpg" /><div class="zhe"><h3>smart decors</h3></div></div>
+						</div>
+						<div id="tu-3"><img src="/xiang/images/d6.jpg" /><div class="zhe"><h3>smart decors</h3></div></div>
+						<div id="tu-4"><img src="/xiang/images/d7.jpg" /><div class="zhe"><h3>smart decors</h3></div></div>
+					</div>
+				</div>
+				<div class="sec_3 miao">
+					<h1>MEET OUR TEAM</h1>
+					<div class="sec_31">
+						<div>
+							<p><img src="/xiang/images/t1.jpg" /><span></span></p>
+							<h3>Travis Head</h3>
+							<h5>Interior Lead</h5>
+						</div>
+						<div>
+							<p><img src="/xiang/images/t2.jpg" /><span></span></p>
+							<h3>Tostabo Roy</h3>
+							<h5>Designer</h5>
+						</div>
+						<div>
+							<p><img src="/xiang/images/t3.jpg" /><span></span></p>
+							<h3>Ishan Rich</h3>
+							<h5>Planner</h5>
+						</div>
+						<div>
+							<p><img src="/xiang/images/t4.jpg" /><span></span></p>
+							<h3>Dhoni Carl</h3>
+							<h5>Designer Guide</h5>
+						</div>
+					</div>
+				</div>
+				<div class="sec_4 miao">
+					<h1>OUR GALLERY</h1>
+					<div class="sec_41">
+						<div class="sec-41">
+							<div>
+								<img src="/xiang/images/g111.jpg"  />
+								<span>sdf</span>
+							</div>
+							<div>
+								<img src="/xiang/images/g222.jpg"  />
+								<span>sdf</span>
+							</div>
+							<div>
+								<img src="/xiang/images/g3331.jpg"  />
+								<span>sdf</span>
+							</div>
+							<div>
+								<img src="/xiang/images/g444.jpg"  />
+								<span>sdf</span>
+							</div>
+						</div>						
+						<div class="sec-41">
+							<div>
+								<img src="/xiang/images/g555.jpg"  />
+								<span>sdf</span>
+							</div>
+							<div>
+								<img src="/xiang/images/g666.jpg"  />
+								<span>sdf</span>
+							</div>
+							<div>
+								<img src="/xiang/images/g777.jpg"  />
+								<span>sdf</span>
+							</div>
+							<div>
+								<img src="/xiang/images/g888.jpg"  />
+								<span>sdf</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="sec_5 miao">
+					<h1>Testimonials</h1>
+					<div class="sec_51">
+						<ul class="ul_2">
+							<li>
+								<p>Suspendisse sollicitudin erat in metus varius, maximus rutrum purus condimentum. Phasellus </p>
+								<p>quam libero, volutpat in sodales at, dignissim vel ipsum.</p>
+								<span><img src="/xiang/images/test1.jpg" /></span>
+								<h5>Laura Chris</h5>
+								<h4>Business man</h4>
+							</li>
+							<li>
+								<p>Suspendisse sollicitudin erat in metus varius, maximus rutrum purus condimentum. Phasellus </p>
+								<p>quam libero, volutpat in sodales at, dignissim vel ipsum.</p>
+								<span><img src="/xiang/images/test2.jpg"/></span>
+								<h5>Michael Paul</h5>
+								<h4>engineer</h4>
+							</li>
+							<li>
+								<p>Suspendisse sollicitudin erat in metus varius, maximus rutrum purus condimentum. Phasellus </p>
+								<p>quam libero, volutpat in sodales at, dignissim vel ipsum.</p>
+								<span><img src="/xiang/images/test3.jpg"/></span>
+								<h5>Willium Parker</h5>
+								<h4>Designer</h4>
+							</li>
+						</ul>
+						<ul class="ul_3">
+							<li class="red"></li>
+							<li class="lan"></li>
+							<li class="lan"></li>
+						</ul>
+					</div>
+				</div>
+				<div class="sec_6 miao">
+					<h1>CONTACT US</h1>
+					<div class="sec_61">
+						<div>
+							<h2>SEND A <span>MESSAGE</span></h2>
+							<form id="form">
+								<p><input type="text" placeholder="Name" /></p>
+								<p><input type="email" placeholder="email" /></p>
+								<p><textarea placeholder="Type Your Text Here...."></textarea></p>
+								<p><button type="button" id="sub" >submit</button></p>
+							</form>
+						</div>
+						<div>
+							sf
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<footer>
+			<div class="foot">
+				<div class="foot_1">
+					<div><a href=""><span>SOFT</span>DECORS</a></div>
+					<div><p><input type="text" placeholder="Your Email" /><button type="submit">submit</button></p></div>
+					<div>
+						<ul class="list">
+							<li></li>
+							<li></li>
+							<li></li>
+						</ul>
+					</div>
+				</div>
+				<div class="foot_2">
+					<ul class="list_2">
+						<li><h2><a href="">Decor Designs</a></h2>
+							<ul class="list_3">
+								<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eget egestas erat. In hac habitasse platea dictumst.</li>
+								<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eget egestas erat. In hac habitasse platea dictumst.</li>
+							</ul>
+						</li>
+						<li><h2><a href="">Navigation</a></h2>
+							<ul class="list_3">
+								<li><a href="">About Us</a></li>
+								<li><a href="">Designs</a></li>
+								<li><a href="">Testimonials</a></li>
+								<li><a href="">Team</a></li>
+								<li><a href="">Gallery</a></li>
+								<li><a href="">Contact Us</a></li>
+							</ul>
+						</li>
+						<li><h2><a href="">Contact Us</a></h2>
+							<ul class="list_3">
+								<li> 123 san francisco New York City USA. </li>
+								<li> +12 322 3333  +00 1111 222 </li>
+								<li><a href=""> mail@example.com</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<div class="foot_3">
+					Copyright © 2017.Company name All rights reserved.More Templates 
+				</div>
+			</div>
+		</footer>
+		{{/block}}
+		{{block 'script'}}
+		<script src="/js/xiangm.js" type="text/javascript"></script>
+		<script src="/js/xiangm2.js" type="text/javascript"></script>
+		{{/block}}

@@ -1,0 +1,5 @@
+// function creat_watermark(){var body=document.getElementsByTagName("body")[0];var watermark=document.getElementsByClassName("watermark");var W=window.innerWidth,H=window.innerHeight;var WS=5;const TEXT="赵帅锋自拟水印";
+// const DW=Math.ceil(W/WS),DH=Math.ceil(H/WS);function js(){for(var i=0;i<WS;i++){for(var c=0;c<WS;c++){var div=document.createElement("div");div.className="watermark";div.innerHTML=TEXT;body.appendChild(div);	}}}js();var POSI=[];/*装字体的位置数据容器*/function move_div(){
+// for(var i=0;i<WS;i++){for(var c=0;c<WS;c++){var left=(i*DW)+DW/3,top=c*DH;POSI.push({left:left,top:top});}}}move_div()
+// function ss(){for(var w=0;w<watermark.length;w++){watermark[w].style.cssText="left:"+POSI[w].left+"px; top:"+POSI[w].top+"px;font-size: 25px; color:rgba(226,220,220,0.3);; z-index:0; position: fixed; transform: rotateZ(45deg);"}}ss()}creat_watermark()
+// document.oncontextmenu=new Function('event.returnValue=false;'); document.onselectstart=new Function('event.returnValue=false;');

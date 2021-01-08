@@ -1,0 +1,13 @@
+*{ margin: 0px; padding: 0px;}
+#zhe{ background-color:rgba(0,0,0,0.7); width: 0px; position: absolute; top: 0px; height: 100%;}
+.lk{ margin:130px auto; width: 500px; height: 500px; border: 1px solid #ccc;}
+#canvas{ cursor: pointer; width: 100%; height: 100%;}
+.btn{ position: absolute; top: 0px; left: 50%; margin-left: -50px;  width: 100px; height: 40px; }
+.btn button{ width: 100%; height: 100%; line-height: 40px; color: #fff; cursor: pointer; background: #a49872;}
+.btn button:focus{outline: none;}
+.ys{ position: absolute; top: 50px;  left: 50%; margin-left: -60px; width:120px;  height: 40px; }
+.ys input{ text-align: center; width: 90px; border: 1px solid #ccc; font-size: 8px; height: 20px; margin: auto; display: block;}
+.ys span{ display: block; cursor: pointer; font-size: 14px; width: 100%; text-align: center;}
+.ys span:hover{ text-decoration: underline;}
+.list{ float:left; width: 100%;}
+.list li{list-style-type: none; float: left; width: 20px; height: 20px; margin: 5px 5px; cursor: pointer;}

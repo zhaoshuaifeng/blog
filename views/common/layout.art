@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>家具网页</title>
+	</head>
+	{{block 'link'}}{{/block}}
+	<body>
+        {{block 'main'}}{{/block}}
+    </body>
+    {{block 'script'}}{{/block}}
+</html>
