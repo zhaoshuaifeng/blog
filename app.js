@@ -40,6 +40,7 @@ app.set("view engine","art")
 app.engine("art",require("express-art-template"))
 //开发资源文件
 app.use(express.static(path.join(__dirname,"public")))
+
 console.log(config.get('title'))
 app.use("/home",loginGuard)
 app.use("/admin",loginGuard)
